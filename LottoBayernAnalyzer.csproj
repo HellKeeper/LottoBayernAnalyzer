@@ -55,11 +55,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\LottoData.cs" />
+    <Compile Include="Data\LottoStatistics.cs" />
     <Compile Include="GUI\FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GUI\FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\LottoButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\LottoButton.Designer.cs">
+      <DependentUpon>LottoButton.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\MsgBox.cs" />
     <Compile Include="Program.cs" />
@@ -67,6 +74,9 @@
     <Compile Include="AssemblyInfo.cs" />
     <EmbeddedResource Include="GUI\FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\LottoButton.resx">
+      <DependentUpon>LottoButton.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -98,7 +108,9 @@
   <ItemGroup>
     <None Include="Resources\Lotto6from49.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\ButtonChecked.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

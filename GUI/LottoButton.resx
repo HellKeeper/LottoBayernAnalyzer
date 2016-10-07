@@ -117,23 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ButtonChecked" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ButtonChecked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon_16_32_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon_16_32_48.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Lotto6from49" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Lotto6from49.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Lotto6from49ArchiveUrl" xml:space="preserve">
-    <value>https://www.lotto-bayern.de/static/gamebroker_2/default/download_files/archiv_lotto.zip</value>
-  </data>
-  <data name="Lotto6from49Filename" xml:space="preserve">
-    <value>lotto.txt</value>
-  </data>
-  <data name="Lotto6from49Url" xml:space="preserve">
-    <value>https://www.lotto-bayern.de/lotto6aus49/normalschein</value>
-  </data>
+  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
 </root>

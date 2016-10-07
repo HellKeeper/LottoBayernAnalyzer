@@ -14,6 +14,14 @@ namespace LottoBayernAnalyzer.Data
 {
     public class Lotto6from49
     {
+        public const int MaxNumberCount = 6;
+        public const int MinNumber = 1;
+        public const int MaxNumber = 49;
+
+
+        #region Aux classes
+
+
         public class DataEntry
         {
             #region Data fields
@@ -56,7 +64,20 @@ namespace LottoBayernAnalyzer.Data
 
 
             public DateTime Date { get { return new DateTime(this.Year, this.Month, this.Day); } }
+
+            public bool IsOnWednesday { get { return this.Date.DayOfWeek == DayOfWeek.Wednesday; } }
+
+            public bool IsOnSaturday { get { return this.Date.DayOfWeek == DayOfWeek.Saturday; } }
+
+
+            public int[] Numbers { get { return new int[] { this.Num1, this.Num2, this.Num3, this.Num4, this.Num5, this.Num6 }; } }
         }
+
+
+        #endregion
+
+
+        #region Static methods
 
 
         /// <summary>
@@ -120,5 +141,8 @@ namespace LottoBayernAnalyzer.Data
 
             return data;
         }
+
+
+        #endregion
     }
 }
